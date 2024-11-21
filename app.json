@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "entryPoint": "./index.js",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -19,7 +20,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.pdftron.react-native-sample"
+      "bundleIdentifier": "com.tastytest.pdftron.react-native-sample"
     },
     "android": {
       "adaptiveIcon": {

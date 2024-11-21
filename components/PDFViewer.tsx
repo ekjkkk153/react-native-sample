@@ -123,6 +123,7 @@ const PDFViewer = ({navigation, route}: PDFViewerProps) => {
         }
         onLeadingNavButtonPressed={onLeadingNavButtonPressed}
         onDocumentLoaded={onDocumentLoaded}
+        useStylusAsPen={true}
         onAnnotationChanged={onAnnotationChanged}
         onExportAnnotationCommand={onExportAnnotationCommand}
         onZoomChanged={onZoomChanged}
