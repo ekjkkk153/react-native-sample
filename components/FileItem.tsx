@@ -17,7 +17,7 @@ import FileViewer from 'react-native-file-viewer';
 
 import * as mime from 'react-native-mime-types';
 import {DateTime} from 'luxon';
-import {RNPdftron} from 'react-native-pdftron';
+import {RNPdftron} from '@pdftron/react-native-pdf';
 
 import BottomSheet from './BottomSheet';
 import InputDialog from './InputDialog';

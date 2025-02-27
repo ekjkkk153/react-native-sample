@@ -1088,7 +1088,7 @@ PODS:
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - RNPdftron (3.0.4-9):
+  - RNPdftron (3.0.4-11):
     - PDFNet
     - React-Core
   - RNScreens (3.29.0):
@@ -1162,7 +1162,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNFileViewer (from `../node_modules/react-native-file-viewer`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
-  - RNPdftron (from `../node_modules/react-native-pdftron`)
+  - "RNPdftron (from `../node_modules/@pdftron/react-native-pdf`)"
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -1295,7 +1295,7 @@ EXTERNAL SOURCES:
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNPdftron:
-    :path: "../node_modules/react-native-pdftron"
+    :path: "../node_modules/@pdftron/react-native-pdf"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   Yoga:
@@ -1364,7 +1364,7 @@ SPEC CHECKSUMS:
   ReactCommon: 2aa35648354bd4c4665b9a5084a7d37097b89c10
   RNFileViewer: ce7ca3ac370e18554d35d6355cffd7c30437c592
   RNGestureHandler: 15c6ef51acba34c49ff03003806cf5dd6098f383
-  RNPdftron: 20a1ce56b5c6c7e0fe14bbee5102931331e6df03
+  RNPdftron: 579d49d1d48904bfed674b3d0b502c880f61a3ab
   RNScreens: 17e2f657f1b09a71ec3c821368a04acbb7ebcb46
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 805bf71192903b20fc14babe48080582fee65a80
