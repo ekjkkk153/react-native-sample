@@ -12,6 +12,7 @@
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
     "@pdftron/react-native-pdf": "3.0.4-11",
+    "@react-native-community/cli": "12.3.6",
     "@react-navigation/native": "^6.0.11",
     "@react-navigation/stack": "^6.2.2",
     "expo": "^50.0.0",
