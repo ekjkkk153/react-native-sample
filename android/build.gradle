@@ -35,6 +35,9 @@ allprojects {
 
         google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
+        maven { 
+            url 'https://www.jitpack.io' 
+            url "https://pdftron-maven.s3.amazonaws.com/release"
+        }
     }
 }
